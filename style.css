@@ -29,7 +29,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 450px;
-    max-height: 100%;
+    max-height: 100%; /* Use max-height to parts prevent div from disappearing when viewport height become smaller than height of div */
+    margin: 20px 0;
 }
 
 .container-header, .container-body {
