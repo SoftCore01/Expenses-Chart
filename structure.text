@@ -1,0 +1,4 @@
+
+
+div(div.header(div.price(p -> h2) -> div.img(img)) -> 
+div.body(h2 -> div.bar(div -> p) -> div(div(p -> h2) -> div(p -> p))) )
