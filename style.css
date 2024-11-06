@@ -21,7 +21,7 @@ body {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
     background-color: var(--very-pale-orange);
-    min-height: 500px;
+    min-height: 500px; /* To ensure that the screen is always big enough for the container make the min-height of the body bigger than the container */
 }
 
 .container {
