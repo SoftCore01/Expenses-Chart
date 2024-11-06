@@ -21,6 +21,7 @@ body {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
     background-color: var(--very-pale-orange);
+    min-height: 500px;
 }
 
 .container {
@@ -174,5 +175,11 @@ hr {
 @media screen and (max-width: 500px) {
     .container {
         min-width: 95%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .container {
+        min-height: 100%;
     }
 }
